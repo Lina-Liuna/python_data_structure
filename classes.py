@@ -23,3 +23,27 @@ class MyClass:
 
 x = MyClass(4321)
 print(x.f())
+
+class Dog:
+    name = ""
+    tricks = []
+    def __init__(self, name):
+        self.name = name
+        self.tricks = []   #Creates a new empty list for each dog
+
+    def add_trick(self, trick):
+        self.tricks.append(trick)
+
+    def do_tricks(self):
+        print(self.name + "can do:")
+        print(self.tricks)
+
+d = Dog("Pickel")
+e = Dog("Rocket")
+d.add_trick('roll over')
+e.add_trick('pop')
+d.do_tricks()
+e.do_tricks()
+
+
+
