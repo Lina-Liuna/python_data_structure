@@ -37,3 +37,6 @@ print(rearrangeMatrix)
 
 rearrangeMatrix = [sum(row) for row in matrix]
 print(rearrangeMatrix)
+
+lst1 = [2,3,5,1,3]
+print(max(lst1))
