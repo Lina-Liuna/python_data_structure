@@ -162,11 +162,25 @@ print('foo@@bar@@baz'.rpartition('@@'))
 #s.splitlines([<keepends>])
 print('foo\nbar\nbaz\nqux'.splitlines(True))
 
+string = '82734'
+for char in string:
+    print(int(char))
+
+print(string[0])
+
+for i in range(0,3):
+    print(i)
 
 
+idmap = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789"
 
+n = 5
 
+print(idmap[n % 62])
+idmap = idmap.replace('a', '$', 1)
+print(idmap)
 
+print('hello world'[::-1])
 
 
 

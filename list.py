@@ -32,6 +32,9 @@ matrix = [[1, 2, 3, 4], [5, 6, 7, 8], [9, 10, 11, 12]]
 rearrangeMatrix = [[row[i] for row in matrix] for i in range(4)]
 print(rearrangeMatrix)
 
+rearrangeMatrix = [[row[i] for row in matrix[0:2]] for i in range(3)]
+print(rearrangeMatrix)
+
 rearrangeMatrix = matrix
 print(rearrangeMatrix)
 
