@@ -33,10 +33,12 @@ class Dog:
 
     def add_trick(self, trick):
         self.tricks.append(trick)
+        return "trick"
 
     def do_tricks(self):
         print(self.name + "can do:")
         print(self.tricks)
+        return "test"
 
 d = Dog("Pickel")
 e = Dog("Rocket")

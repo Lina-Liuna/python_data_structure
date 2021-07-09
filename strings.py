@@ -163,16 +163,14 @@ print('foo@@bar@@baz'.rpartition('@@'))
 print('foo\nbar\nbaz\nqux'.splitlines(True))
 
 string = '82734'
-for char in string:
-    print(int(char))
+#for char in string:
+    #print(int(char))
 
 print(string[0])
 
-for i in range(0,3):
-    print(i)
-
-
 idmap = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789"
+
+print(idmap.index('a'))
 
 n = 5
 
